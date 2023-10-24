@@ -9,6 +9,7 @@
     font-family : "Inter", sans-serif;
 }
 
+/* CSS Design Styling for the Highest Level Parent Element in the document tree, typically the '<html>' Element */
 :root {
     --dark-gray : #333333;
     --medium-gray : #636363;
