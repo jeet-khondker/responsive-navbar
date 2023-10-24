@@ -15,4 +15,5 @@
     --ash : #F4F4F4;
     --primary-color : #2B72FB;
     --white : #FFFFFF;
+    --border : 1px solid var(--light-gray);
 }
