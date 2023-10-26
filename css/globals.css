@@ -24,4 +24,5 @@
 body {
     font-family : inherit;
     background-color : var(--white);
+    color : var(--dark-gray);
 }
