@@ -25,4 +25,5 @@ body {
     font-family : inherit;
     background-color : var(--white);
     color : var(--dark-gray);
+    letter-spacing : -0.4px;
 }
