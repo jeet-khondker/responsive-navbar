@@ -10,6 +10,7 @@
     border-radius : 5px;
 }
 
+/* CSS Design Styling for "icon" Class */
 .icon {
     padding : 0.5rem;
     background-color : var(--light-gray);
