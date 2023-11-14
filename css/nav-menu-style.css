@@ -10,6 +10,7 @@
     min-width : 500px;
 }
 
+/* CSS Style Design for "menu-bar" Class of first <li> HTML Tag Element and <ul> HTML Tag Element */
 .menu-bar li:first-child ul:nth-child(1) {
     border-right : var(--border);
 }
