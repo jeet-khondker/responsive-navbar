@@ -6,4 +6,5 @@
 
 .menu-bar li:first-child .dropdown {
     flex-direction : initial;
+    min-width : 500px;
 }
