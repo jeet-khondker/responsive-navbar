@@ -23,5 +23,5 @@
 }
 
 #nav-menu {
-    
+    border-bottom : var(--border);
 }
