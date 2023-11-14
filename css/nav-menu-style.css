@@ -9,3 +9,7 @@
     flex-direction : initial;
     min-width : 500px;
 }
+
+.menu-bar li:first-child ul:nth-child(1) {
+    
+}
