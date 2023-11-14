@@ -27,6 +27,7 @@
     border-bottom : var(--border);
 }
 
+/* CSS Design Styling for "container" Class */
 .container {
     display : flex;
     align-items : center;
