@@ -5,5 +5,5 @@
 }
 
 .menu-bar li:first-child .dropdown {
-    
+    flex-direction : initial;
 }
