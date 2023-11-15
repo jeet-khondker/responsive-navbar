@@ -14,3 +14,7 @@
 .menu-bar li:first-child ul:nth-child(1) {
     border-right : var(--border);
 }
+
+.menu-bar li:nth-child(n + 2) ul:nth-child(1) {
+    
+}
