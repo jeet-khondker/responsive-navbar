@@ -1,35 +1,36 @@
 /* CSS Design Styling for "menu" Class */
 .menu {
-    position : relative;
-    background : var(--white);
+  position: relative;
+  background: var(--white);
 }
 
 /* CSS Design Styling for "menu-bar" Class and "dropdown" Class of first <li> Tag HTML Element */
 .menu-bar li:first-child .dropdown {
-    flex-direction : initial;
-    min-width : 500px;
+  flex-direction: initial;
+  min-width: 500px;
 }
 
 /* CSS Style Design for "menu-bar" Class of first <li> HTML Tag Element and <ul> HTML Tag Element */
 .menu-bar li:first-child ul:nth-child(1) {
-    border-right : var(--border);
+  border-right: var(--border);
 }
 
 /* CSS Style Design for "menu-bar" Class of <li> and <ul> HTML Tag Elements */
 .menu-bar li:nth-child(n + 2) ul:nth-child(1) {
-    border-bottom : var(--border);
+  border-bottom: var(--border);
 }
 
 /* CSS Style Design for "menu-bar" Class and "dropdown-link-title" Class */
 .menu-bar .dropdown-link-title {
-    font-weight : 1000;
+  font-weight: 1000;
 }
 
+/* CSS Style Design for "menu-bar" Class and "nav-link" Class */
 .menu-bar .nav-link {
-    font-size : 1rem;
-    font-weight : 500;
-    letter-spacing : -0.5px;
-    padding : 0.5rem;
-    min-width : 50px;
-    margin : 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  padding: 0.5rem;
+  min-width: 50px;
+  margin: 0 0.5rem;
 }
