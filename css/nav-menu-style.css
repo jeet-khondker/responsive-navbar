@@ -34,3 +34,8 @@
   min-width: 50px;
   margin: 0 0.5rem;
 }
+
+.menu-bar .nav-link:hover,
+.dropdown-link:hover {
+    
+}
