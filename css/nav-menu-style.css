@@ -37,5 +37,5 @@
 
 .menu-bar .nav-link:hover,
 .dropdown-link:hover {
-    
+    color : var(--primary-color);
 }
