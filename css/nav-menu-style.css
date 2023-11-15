@@ -19,3 +19,7 @@
 .menu-bar li:nth-child(n + 2) ul:nth-child(1) {
     border-bottom : var(--border);
 }
+
+.menu-bar .dropdown-link-title {
+    
+}
