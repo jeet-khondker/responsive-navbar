@@ -20,6 +20,7 @@
     border-bottom : var(--border);
 }
 
+/* CSS Style Design for "menu-bar" Class and "dropdown-link-title" Class */
 .menu-bar .dropdown-link-title {
     font-weight : 1000;
 }
