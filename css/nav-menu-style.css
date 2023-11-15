@@ -47,4 +47,5 @@
 .right-container,
 .right-container .search {
     display : flex;
+    align-items : center;
 }
