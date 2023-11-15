@@ -35,6 +35,7 @@
   margin: 0 0.5rem;
 }
 
+/* CSS Style Design for "menu-bar" Class and "nav-link" and "dropdown-link" when mouse is hovered */
 .menu-bar .nav-link:hover,
 .dropdown-link:hover {
     color : var(--primary-color);
