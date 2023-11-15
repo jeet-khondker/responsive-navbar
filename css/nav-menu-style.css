@@ -41,6 +41,7 @@
     color : var(--primary-color);
 }
 
+/* CSS Design Style for "navigation-start", "navigation-end", "menu-bar", "right-container" and "search" Classes */
 .navigation-start,
 .navigation-end,
 .menu-bar,
