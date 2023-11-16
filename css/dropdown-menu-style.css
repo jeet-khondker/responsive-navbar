@@ -18,4 +18,5 @@
 .dropdown.active {
     visibility : visible;
     opacity : 1;
+    transform : scale(1) translateX(5px);
 }
