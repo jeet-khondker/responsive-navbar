@@ -5,4 +5,5 @@
     background-color : var(--white);
     border-radius : 10px;
     position : absolute;
+    top : 35px;
 }
