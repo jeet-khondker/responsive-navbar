@@ -8,4 +8,5 @@
     top : 35px;
     z-index : 1;
     visibility : hidden;
+    opacity : 0;
 }
