@@ -3,4 +3,5 @@
     flex-direction : column;
     min-width : 250px;
     background-color : var(--white);
+    border-radius : 10px;
 }
