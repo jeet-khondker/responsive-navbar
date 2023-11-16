@@ -16,5 +16,5 @@
 }
 
 .dropdown.active {
-    
+    visibility : visible;
 }
