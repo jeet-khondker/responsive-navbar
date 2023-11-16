@@ -23,5 +23,5 @@
 }
 
 .dropdown ul {
-    
+    display : flex;
 }
