@@ -31,6 +31,7 @@
     font-size : 1rem;
 }
 
+/* CSS Design Styke for "dropdown-btn" Class */
 .dropdown-btn {
     display : flex;
     align-items : center;
