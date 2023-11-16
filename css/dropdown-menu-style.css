@@ -22,6 +22,7 @@
     transform : scale(1) translateX(5px);
 }
 
+/* CSS Design Styke for "dropdown" Class and <ul> HTML Tag Element */
 .dropdown ul {
     display : flex;
     flex-direction : column;
