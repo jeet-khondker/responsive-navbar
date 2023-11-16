@@ -15,6 +15,7 @@
     box-shadow : var(--shadow);
 }
 
+/* CSS Design Style for "dropdown" Class and "active" Class */
 .dropdown.active {
     visibility : visible;
     opacity : 1;
