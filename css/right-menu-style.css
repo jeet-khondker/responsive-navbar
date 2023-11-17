@@ -36,6 +36,7 @@
     opacity : 0.5;
 }
 
+/* CSS Design Style for "hamburger" ID */
 #hamburger {
     display : none;
     padding : 0.1rem;
