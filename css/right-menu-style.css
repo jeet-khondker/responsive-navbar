@@ -23,4 +23,5 @@
     padding-left : 2.5rem;
     font-size : 15px;
     width : 100%;
+    border : var(--border);
 }
