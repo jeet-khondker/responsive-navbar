@@ -48,6 +48,7 @@
     transition : 0.1s ease-in-out;
 }
 
+/* CSS Design Style for "dropdown-link" Class and <p> HTML Tag Element */
 .dropdown-link p {
     font-size : 1rem;
     color : var(--medium-gray);
