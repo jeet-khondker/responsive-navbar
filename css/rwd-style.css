@@ -1,4 +1,6 @@
 @media (max-width: 1100px) {
+
+    /* RWD CSS Style for "hamburger" ID */
     #hamburger {
         display : block;
         position : relative;
