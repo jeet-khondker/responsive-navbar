@@ -10,6 +10,7 @@
     position : relative;
 }
 
+/* CSS Design Style for "right-container" Class and <img> HTML Tag Element */
 .right-container img {
     border-radius : 50%;
 }
