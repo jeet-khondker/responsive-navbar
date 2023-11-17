@@ -17,4 +17,5 @@
 
 .search input {
     background-color : var(--ash);
+    border : none;
 }
