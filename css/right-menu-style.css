@@ -27,6 +27,7 @@
     border : var(--border);
 }
 
+/* CSS Design Style for "search" Class and "search-icon" Class */
 .search .search-icon {
     position : absolute;
     left : 10px;
