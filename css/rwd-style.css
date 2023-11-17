@@ -2,5 +2,6 @@
     #hamburger {
         display : block;
         position : relative;
+        left : calc(100vw - 10rem);
     }
 } 
