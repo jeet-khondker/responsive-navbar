@@ -22,7 +22,7 @@
     transform : scale(1) translateX(5px);
 }
 
-/* CSS Design Styke for "dropdown" Class and <ul> HTML Tag Element */
+/* CSS Design Style for "dropdown" Class and <ul> HTML Tag Element */
 .dropdown ul {
     display : flex;
     flex-direction : column;
@@ -31,7 +31,7 @@
     font-size : 1rem;
 }
 
-/* CSS Design Styke for "dropdown-btn" Class */
+/* CSS Design Style for "dropdown-btn" Class */
 .dropdown-btn {
     display : flex;
     align-items : center;
@@ -39,7 +39,7 @@
     gap : 0.15rem;
 }
 
-/* CSS Design Styke for "dropdown-link" Class */
+/* CSS Design Style for "dropdown-link" Class */
 .dropdown-link {
     display : flex;
     gap : 0.5rem;
