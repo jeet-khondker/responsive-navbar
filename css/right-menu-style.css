@@ -15,6 +15,7 @@
     border-radius : 50%;
 }
 
+/* CSS Design Style for "search" Class and <input> HTML Tag Element */
 .search input {
     background-color : var(--ash);
     border : none;
