@@ -50,4 +50,5 @@
 
 .dropdown-link p {
     font-size : 1rem;
+    color : var(--medium-gray);
 }
