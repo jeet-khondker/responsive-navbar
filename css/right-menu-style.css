@@ -18,4 +18,5 @@
 .search input {
     background-color : var(--ash);
     border : none;
+    border-radius : 5px;
 }
