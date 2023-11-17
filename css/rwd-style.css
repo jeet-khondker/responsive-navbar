@@ -6,4 +6,8 @@
         position : relative;
         left : calc(100vw - 10rem);
     }
+
+    .container {
+        
+    }
 } 
