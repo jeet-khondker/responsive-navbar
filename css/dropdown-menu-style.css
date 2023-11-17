@@ -39,6 +39,7 @@
     gap : 0.15rem;
 }
 
+/* CSS Design Styke for "dropdown-link" Class */
 .dropdown-link {
     display : flex;
     gap : 0.5rem;
