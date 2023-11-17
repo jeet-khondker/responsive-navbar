@@ -5,6 +5,7 @@
     column-gap : 1rem;
 }
 
+/* CSS Design Style for "right-container" Class and "search" Class */
 .right-container .search {
     position : relative;
 }
