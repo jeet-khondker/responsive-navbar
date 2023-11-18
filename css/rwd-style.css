@@ -23,6 +23,7 @@
         width : 100vw;
     }
 
+    /* RWD CSS Style for "menu-bar" Class and <li> and <ul> HTML Tag Elements */
     .menu-bar li:first-child ul:nth-child(1) {
         border-right : none;
         border-bottom : var(--border);
