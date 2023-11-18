@@ -25,5 +25,6 @@
 
     .menu-bar li:first-child ul:nth-child(1) {
         border-right : none;
+        border-bottom : var(--border);
     }
 } 
