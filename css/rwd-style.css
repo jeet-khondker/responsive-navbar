@@ -83,6 +83,7 @@
 
 @media (max-width: 600px) {
     
+    /* RWD CSS Style for "right-container" Class */
     .right-container {
         display : none;
     }
