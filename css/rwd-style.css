@@ -32,5 +32,6 @@
     .dropdown {
         display : none;
         min-width : 100%;
+        border : none !important;
     }
 } 
