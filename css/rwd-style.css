@@ -50,6 +50,7 @@
         display : block;
     }
 
+    /* RWD CSS Style for "dropdown" Class and <ul> HTML Tag Element */
     .dropdown ul {
         padding-left : 0.5rem;
     }
