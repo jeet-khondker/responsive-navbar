@@ -84,6 +84,6 @@
 @media (max-width: 600px) {
     
     .right-container {
-        
+        display : none;
     }
 }
