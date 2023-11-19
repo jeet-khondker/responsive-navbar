@@ -28,7 +28,7 @@
 }
 
 /* CSS Design Style for "search" Class and "search-icon" Class */
-.search .search-icon {
+.search .bx-search {
     position : absolute;
     left : 10px;
     top : 50%;

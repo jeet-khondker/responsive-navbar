@@ -17,138 +17,137 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header id="navigation-menu">
+    <header id="navigation-menu" aria-label="navigation bar">
         <section class="container">
             <section class="navigation-start">
                 <a class="logo" href="/">
                     <img src="assets/images/logo.png" width="35" height="35" alt="JZHK" />
                 </a>
                 <nav class="menu">
-                    <button id="hamburger" aria-expanded="false">
-                        <i class="bx bx-menu" aria-hidden="true"></i>
-                    </button>
-                    <section class="menu">
-                        <ul class="menu-bar">
-                            <li>
-                                <button class="nav-link dropdown-btn" data-dropdown="dropdown-browse" aria-expanded="false">
-                                    Browse
-                                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                                </button>
-                                <section id="dropdown-browse" class="dropdown">
-                                    <ul>
-                                        <li>
-                                            <a class="dropdown-link" href="#best-of-the-day">
-                                               <img src="assets/icons/botd.svg" class="icon" alt="best-of-the-day"/>
-                                               <section>
-                                                <span class="dropdown-link-title">Best Of The Day</span>
-                                                <p>Shorts featured today by curators</p>
-                                               </section>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#featured-streams">
-                                                <img src="assets/icons/fs.svg" class="icon" alt="featured-streams"/>
-                                                <section>
-                                                    <span class="dropdown-link-title">Featured Streams</span>
-                                                    <p>Leading creatives livestreams</p>
-                                                </section>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#subscriptions">
-                                                <img src="assets/icons/sp.svg" class="icon" alt=""/>
-                                                <section>
-                                                    <span class="dropdown-link-title">Subscriptions</span>
-                                                    <p>Gain exclusive access</p>
-                                                </section>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#creative-feed">
-                                                <img src="assets/icons/cf.svg" class="icon" alt=""/>
-                                                <section>
-                                                    <span class="dropdown-link-title">Creative Feed</span>
-                                                    <p>See trending creations</p>
-                                                </section>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <span class="dropdown-link-title">Browse by Apps</span>
-                                        <li>
-                                            <a class="dropdown-link" href="#adobe-xd">
-                                                <img src="assets/icons/xd.svg" alt=""/>
-                                                Adobe XD
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#after-effect">
-                                                <img src="assets/icons/ae.svg" alt=""/>
-                                                After Effect
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#sketch">
-                                                <img src="assets/icons/sketch.svg" alt=""/>
-                                                Sketch
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#indesign">
-                                                <img src="assets/icons/indesign.svg" alt=""/>
-                                                Indesign
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#figma">
-                                                <img src="assets/icons/figma.svg" alt=""/>
-                                                Figma
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </section>
-                            </li>
-                            <li>
-                                <button class="nav-link dropdown-btn" data-dropdown="dropdown-discover" aria-expanded="false">
-                                    Discover
-                                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                                </button>
-                                <section id="dropdown-discover" class="dropdown">
-                                    <ul aria-labelledby="categories-title">
+                    <ul class="menu-bar">
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown-browse" aria-expanded="false" aria-haspopup="true" aria-label="browse">
+                                Browse
+                                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+                            <section id="dropdown-browse" class="dropdown">
+                                <ul role="menu">
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#best-of-the-day">
+                                            <img src="assets/icons/botd.svg" class="icon" alt="best-of-the-day"/>
+                                            <section>
+                                            <span class="dropdown-link-title">Best Of The Day</span>
+                                            <p>Shorts featured today by curators</p>
+                                            </section>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="assets/icons/fs.svg" class="icon" alt="featured-streams"/>
+                                            <section>
+                                                <span class="dropdown-link-title">Featured Streams</span>
+                                                <p>Leading creatives livestreams</p>
+                                            </section>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#subscriptions">
+                                            <img src="assets/icons/sp.svg" class="icon" alt=""/>
+                                            <section>
+                                                <span class="dropdown-link-title">Subscriptions</span>
+                                                <p>Gain exclusive access</p>
+                                            </section>
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#creative-feed">
+                                            <img src="assets/icons/cf.svg" class="icon" alt=""/>
+                                            <section>
+                                                <span class="dropdown-link-title">Creative Feed</span>
+                                                <p>See trending creations</p>
+                                            </section>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul role="menu">
+                                    <span class="dropdown-link-title">Browse by Apps</span>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#adobe-xd">
+                                            <img src="assets/icons/xd.svg" alt=""/>
+                                            Adobe XD
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#after-effect">
+                                            <img src="assets/icons/ae.svg" alt=""/>
+                                            After Effect
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#sketch">
+                                            <img src="assets/icons/sketch.svg" alt=""/>
+                                            Sketch
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#indesign">
+                                            <img src="assets/icons/indesign.svg" alt=""/>
+                                            Indesign
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#figma">
+                                            <img src="assets/icons/figma.svg" alt=""/>
+                                            Figma
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown-discover" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                                Discover
+                                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+                            <section id="dropdown-discover" class="dropdown">
+                                <ul role="menu" aria-labelledby="categories-title">
+                                    <li>
                                         <span id="categories-title" class="dropdown-link-title">
                                             Browse Categories
                                         </span>
-                                        <li>
-                                            <a class="dropdown-link" href="#branding">
-                                                Branding
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#illustrations">Illustration</a>
-                                        </li>
-                                    </ul>
-                                    <uL aria-labelledby="download-title">
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#branding">
+                                            Branding
+                                        </a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#illustrations">Illustration</a>
+                                    </li>
+                                </ul>
+                                <uL aria-labelledby="download-title" role="menu">
+                                    <li>
                                         <span id="download-title" class="dropdown-link-title">Download App</span>
-                                        <li>
-                                            <a class="dropdown-link" ref="#mac-windows">MacOS & Windows</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-link" href="#linux">Linux</a>
-                                        </li>
-                                    </uL>
-                                </section>
-                            </li>
-                            <li>
-                                <a href="/" class="nav-link">Jobs</a>
-                            </li>
-                            <li>
-                                <a href="/" class="nav-link">Livestream</a>
-                            </li>
-                            <li>
-                                <a href="/" class="nav-link">About</a>
-                            </li>
-                        </ul>
-                    </section>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" ref="#mac-windows">MacOS & Windows</a>
+                                    </li>
+                                    <li role="menuitem">
+                                        <a class="dropdown-link" href="#linux">Linux</a>
+                                    </li>
+                                </uL>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="/" class="nav-link">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="/" class="nav-link">Livestream</a>
+                        </li>
+                        <li>
+                            <a href="/" class="nav-link">About</a>
+                        </li>
+                    </ul>
                 </nav>
             </section>
             <section class="navigation-end">
@@ -162,9 +161,22 @@
                     </a>
                     <button class="btn btn-primary">Create</button>
                 </section>
+
+                <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+                    <i class="bx bx-menu" aria-hidden="true"></i>
+                </button>
             </section>
         </section>
     </header>
+
+    <!-- Page markup: Not important -->
+    <main style="padding: 1.5rem; margin: 0 auto; max-width: 1300px">
+        <h1>Responsive Navigation Bar</h1>
+        <p>
+        Want to learn how to make this?
+        <a style="text-decoration: underline; color: var(--primary-color)" href="https://github.com/jeet-khondker/responsive-navbar" target="_blank">Check Out Github Repository</a>
+        </p>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
