@@ -56,6 +56,6 @@
     }
 
     .menu-bar {
-        
+        display : flex;
     }
 } 
