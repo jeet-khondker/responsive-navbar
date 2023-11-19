@@ -55,6 +55,7 @@
         padding-left : 0.5rem;
     }
 
+    /* RWD CSS Style for "menu-bar" Class */
     .menu-bar {
         display : flex;
         flex-direction : column;
