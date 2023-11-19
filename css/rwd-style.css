@@ -73,4 +73,8 @@
         font-size : 1rem;
         margin : 0;
     }
+
+    .menu-bar > li:not(:last-child) {
+        
+    }
 } 
