@@ -64,6 +64,7 @@
         padding : 1rem;
     }
 
+    /* RWD CSS Style for "menu-bar" and "nav-link" Classes */
     .menu-bar .nav-link {
         display : flex;
         justify-content : space-between;
