@@ -16,3 +16,8 @@ function closeDropdownMenu() {
         drop.addEventListener("click", (event) => event.stopPropagation());
     });
 }
+
+// Function 3 : Toggle of Hamburger Icon
+function toggleHamburger() {
+    navMenu.classList.toggle("show");
+}
