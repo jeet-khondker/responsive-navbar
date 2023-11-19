@@ -56,3 +56,11 @@ document.documentElement.addEventListener("click", () => {
     closeDropdownMenu();
     setAriaExpandedFalse();
 });
+
+// Function 7 : Close of dropdown when the "escape" key is pressed
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeDropdownMenu();
+      setAriaExpandedFalse();
+    }
+});
