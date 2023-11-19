@@ -25,7 +25,7 @@ function toggleHamburger() {
 // Function 4 : Function of Dropdown Button
 dropdownBtn.forEach((btn) => {
     btn.addEventListener("click", function (event) {
-      const dropdownIndex = e.currentTarget.dataset.dropdown;
+      const dropdownIndex = event.currentTarget.dataset.dropdown;
       const dropdownElement = document.getElementById(dropdownIndex);
   
       dropdownElement.classList.toggle("active");
