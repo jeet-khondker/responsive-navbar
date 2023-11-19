@@ -50,3 +50,9 @@ links.forEach((link) =>
     toggleHamburger();
   })
 );
+
+// Function 6 : Close of dropdown menu when you click on the document body
+document.documentElement.addEventListener("click", () => {
+    closeDropdownMenu();
+    setAriaExpandedFalse();
+});
