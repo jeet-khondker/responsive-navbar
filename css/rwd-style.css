@@ -74,6 +74,7 @@
         margin : 0;
     }
 
+    /* RWD CSS Style for "menu-bar" Class and <li> HTML Tag Element */
     .menu-bar > li:not(:last-child) {
         padding-bottom : 0.5rem;
         border-bottom : var(--border);
