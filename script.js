@@ -64,3 +64,6 @@ document.addEventListener("keydown", (event) => {
       setAriaExpandedFalse();
     }
 });
+
+// Function 8 : Addition of Event Listener to "hamburger" Icon
+hamburgerBtn.addEventListener("click", toggleHamburger);
