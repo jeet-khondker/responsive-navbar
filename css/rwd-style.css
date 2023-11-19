@@ -46,6 +46,6 @@
 
     .menu.show, 
     .dropdown.active {
-        
+        display : block;
     }
 } 
