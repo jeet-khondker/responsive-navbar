@@ -41,3 +41,12 @@ dropdownBtn.forEach((btn) => {
       );
     });
 });
+
+// Function 5 : Close of dropdown menu when the dropdown links are clicked
+links.forEach((link) =>
+  link.addEventListener("click", () => {
+    closeDropdownMenu();
+    setAriaExpandedFalse();
+    toggleHamburger();
+  })
+);
