@@ -44,6 +44,7 @@
         box-shadow : none;
     }
 
+    /* RWD CSS Style for "menu", "show", "dropdown" and "active" Classes */
     .menu.show, 
     .dropdown.active {
         display : block;
