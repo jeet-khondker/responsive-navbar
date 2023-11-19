@@ -8,3 +8,11 @@ const links = document.querySelectorAll(".dropdown a");
 function setAriaExpandedFalse() {
     dropdownBtn.forEach((btn) => btn.setAttribute("aria-expanded", "false"));
 }
+
+// Function 2 : Close of Dropdown Menu
+function closeDropdownMenu() {
+    dropdown.forEach((drop) => {
+        drop.classList.remove("active");
+        drop.addEventListener("click", (event) => event.stopPropagation());
+    });
+}
