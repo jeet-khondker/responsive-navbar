@@ -65,6 +65,6 @@
     }
 
     .menu-bar .nav-link {
-        
+        display : flex;
     }
 } 
