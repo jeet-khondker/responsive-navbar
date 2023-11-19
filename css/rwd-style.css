@@ -3,14 +3,11 @@
     /* RWD CSS Style for "hamburger" ID */
     #hamburger {
         display : block;
-        position : relative;
-        left : calc(100vw - 10rem);
     }
 
     /* RWD CSS Style for "container" Class */
     .container {
         padding : 1remn;
-        margin-right : 5rem;
     }
 
     /* RWD CSS Style for "menu" Class */
