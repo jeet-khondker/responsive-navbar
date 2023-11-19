@@ -66,5 +66,6 @@
 
     .menu-bar .nav-link {
         display : flex;
+        justify-content : space-between;
     }
 } 
